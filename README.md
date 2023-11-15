@@ -15,9 +15,9 @@
 得到一个六列的df: gene,development_time,variety,mean_expression_level,standard_deviation,mean_log_expression
 
 ## 3. GO_enrichment_preparation
-使用topGO之前的准备工作,得到gene2go
+使用topGO之前的准备工作.
 1. 从Uniprot获得指定物种下的所有genenames,entry name(即Accesion),GO_ID,GO_term
 2. 处理NA值,处理重复信息(对应多个accession的同一gene,对符合的GO_ID和GO_term取并集) 注:因为项目更关注gene之间的区别而非蛋白质,所以可以这样操作.
 3. 只取gene列和GO_ID列.转为list
 
-得到gene2go
+得到gene2go (list).
