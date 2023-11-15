@@ -47,7 +47,7 @@
 得到Gentable.
 
 ## 8. ALL
-对所有variety进行分析.
+对所有variety进行分析.all_z的生成流程.
 
 ## 9. interest_genes
 我们感兴趣的一些gene sets
@@ -57,3 +57,8 @@
 1. across timepoints
 2. across varieties
 3. volcano plots function
+
+这个版本的Vplot function中需要依据interest genes进行过滤,所以要先运行第九部分.
+
+## 11. Heatmap
+热图功能.across输入gene sets的所有timepoint的值,最大值设为100%,分成六个档:0,0-25,25-50,50-75,75-100,100
