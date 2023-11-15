@@ -48,3 +48,9 @@
 
 ## 8. ALL
 对所有variety进行分析.
+
+## 9. DGE
+具体的DGE analysis
+1. across timepoints
+2. across varieties
+3. volcano plots function
