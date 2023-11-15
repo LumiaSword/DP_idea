@@ -54,3 +54,6 @@
 1. across timepoints
 2. across varieties
 3. volcano plots function
+
+## 10. interest_gene
+一些我们可能感兴趣的gene sets.
