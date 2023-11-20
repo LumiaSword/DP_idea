@@ -35,10 +35,13 @@
 1. 由variety specific的design matrix得到该variety经过SimpleTidy_GeneCoEx流程后得到的模组分配df以及resolution和>5gene的modules的关系图.
 2. 对模组分配df,测试不同gene sets对不同模组的enrichment程度
 
-## 6. Variety
+## 6. interest_genes
+我们感兴趣的一些gene sets
+
+## 7. Variety
 对于具体Variety的分析.
 
-## 7. TOPGO
+## 8. TOPGO
 使用topGO进行的GO_enrichment
 1. 根据需求,将筛选的结果因子化,得到1,2两个水平.
 2. 构建topGOobejct. annot选择annFUN.gene2GO. 在第三部分得到的geneID2GO将作为gene2GO参数的输入
@@ -46,11 +49,8 @@
 
 得到Gentable.
 
-## 8. ALL
+## 9. ALL
 对所有variety进行分析.all_z的生成流程.
-
-## 9. interest_genes
-我们感兴趣的一些gene sets
 
 ## 10. DGE
 具体的DGE analysis
